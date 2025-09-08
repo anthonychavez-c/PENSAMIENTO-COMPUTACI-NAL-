@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+  int A,B,C;
+  cout<<"ingrese A: ";
+  cin>>A;
+  cout<<"ingrese B: ";
+  cin>>B;
+  cout<<"ingrese C: ";
+  cin>>C;
+  int D=(A*C)+B;
+  int E=C;
+  cout<<D<<"/"<<E<<endl;
+  return 0;
+}
