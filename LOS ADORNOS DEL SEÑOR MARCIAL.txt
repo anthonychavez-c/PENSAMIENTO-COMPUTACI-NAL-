@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+  float x,y,a;
+ cout<<"ingresa lado 1: ";
+ cin>>x;
+ cout<<"ingresa lado 2: ";
+ cin>>y;
+a=(x*x)+(y*y);
+ cout<<"la longitud de la cinta es: "<<sqrt(a)<<endl;
+ return 0;
+}
