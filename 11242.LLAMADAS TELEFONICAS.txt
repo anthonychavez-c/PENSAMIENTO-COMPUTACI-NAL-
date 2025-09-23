@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+int main(){
+int clave;
+double numin, total;
+
+cout<< "12.-AMERICA DEL NORTE" <<endl;
+cout<<"15.-AMERICA CENTRAL"<<endl;
+cout<< "18.-AMERICA DEL SUR"<<endl;
+cout<<"19.-EUROPA"<<endl;
+cout<<"23.-ASIA"<<endl;
+cout<<"25.-AFRICA"<<endl;
+cout<<"29.-OCEANIA"<<endl;
+cout<<"clave: "<<endl;
+cin>>clave;
+cout<<"numin: "<<endl;
+cin>>numin;
+ switch (clave) {
+     
+case 12: total=numin*2;
+break;
+case 15: total=numin*2.2;
+break;
+case 18: total=numin*4.5;
+case 19: total=numin*3.5;
+break;
+case 23: total=numin*6;
+break;
+case 25: total=numin*6;
+break;
+case 29: total=numin*5;
+break;
+default: cout<<"error";
+}
+cout<<total;
+return 0;
+}
