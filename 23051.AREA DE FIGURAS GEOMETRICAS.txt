@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main (){
+   int l,h,operacion,R;
+cout<<"1 cuadrado"<<endl;
+cout<<"2 rectangulo"<<endl;
+cout<<"3 triangulo"<<endl;
+cout<<"4 salir"<<endl;
+cout<<"Escriba la operacion: "<<endl;
+cin>>operacion;
+cout<<"Ingrese valores: "<<endl;
+cin>>l>>h;
+switch (operacion){
+case 1: R=l*h;
+break;
+case 2: R=l*h;
+break;
+case 3: R=(l*h)/2;
+break;
+case 4: cout<<"adios";
+break;
+default: cout<<"opcion invalida";
+}
+cout<<R;
+return 0;
+}
