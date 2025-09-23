@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main (){
+double A,B,R; 
+int operacion;
+cout<<"1 suma"<<endl;
+cout<<"2 resta"<<endl;
+cout<<"3 multiplicacion"<<endl;
+cout<<"4 division"<<endl;
+cout<<"Escriba la operacion: "<<endl;
+cin>>operacion;
+cout<<"Ingrese valores: "<<endl;
+cin>>A>>B;
+switch (operacion){
+case 1: R=A+B;
+break;
+case 2: R=A-B;
+break;
+case 3: R=A*B;
+break;
+case 4: R=A/B;
+break;
+default: cout<<"Error";
+}
+cout<<R;
+
+return 0;
+
+}
