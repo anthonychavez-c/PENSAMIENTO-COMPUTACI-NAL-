@@ -1,0 +1,8 @@
+//ejercicio 2
+#include <iostream>
+using namespace std;
+int main (){
+    int a,b,c; cin>>a; c=(a/10)*10;
+    cout <<a/10+(a-c);
+    return 0;
+}

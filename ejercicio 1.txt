@@ -1,0 +1,14 @@
+//ejercicio 1
+#include <iostream>
+using namespace std;
+int main (){
+    int a,b,c,d;
+    cin >>a;
+    b=a/100;
+    c=(a/10)-((a/100)*10);
+    d=a-((a/10)*10);
+    cout<<d;
+    cout<<c;
+    cout<<b;
+    return 0;
+}
