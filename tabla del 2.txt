@@ -1,0 +1,11 @@
+// tabla del 2
+#include <iostream>
+using namespace std;
+int main() {
+    int i,n;
+    cin>>n;
+    for (i=1; i<=n; i++){
+        cout<<"2 x "<<i<<" = "<<2*i<<endl;
+    }
+    return 0;
+}
