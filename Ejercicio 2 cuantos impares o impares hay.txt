@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main (){
+int a, pares, impares,d;
+   cin>>a;
+   pares=0;
+   impares=0;
+while(a>0){
+   d=a%2==0;
+   if (d%2==0){
+   pares++;
+}else {
+   impares++;
+}
+   a/=10;
+}
+cout<<"son pares: "<<pares<< endl;
+cout <<"son impares: "<<impares;
+
+return 0;
+}

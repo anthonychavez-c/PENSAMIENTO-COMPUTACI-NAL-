@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+    int n, pares, impares, d;
+    cin>>n;
+    pares=0;
+    impares=0;
+    while(n>0)
+    {
+        d=n-(n/10)*10;
+        if (d%2==0){
+            pares=pares+d;
+        }else {
+            impares=impares+d;
+        }
+        n=n/10;
+    }
+    cout<<"suma de pares: "<<pares<< endl;
+    cout <<"suma de impares: "<<impares;
+    return 0;
+}
