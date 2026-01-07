@@ -1,0 +1,14 @@
+// punteros 3
+#include <iostream>
+using namespace std;
+int main(){
+    int A, *P;
+    A=20;
+    cout << A<< endl;
+    cout <<& A<< endl;
+    P=&A;
+    cout << *P<< endl;
+    *P=21;
+    cout << *P;
+    return 0;
+}

@@ -1,0 +1,17 @@
+/* punteros 5 Lo mismo las cin xd*/
+#include <iostream>
+using namespace std;
+int main(){
+    int A,B,C, *P;
+    cin >> A>>B;
+    A=20;
+    B=10;
+    C=A+B;
+    cout << C<< endl;
+    cout <<& C<< endl;
+    P=&C;
+    cout << *P<< endl;
+    *P=C+5;
+    cout << *P;
+    return 0;
+}

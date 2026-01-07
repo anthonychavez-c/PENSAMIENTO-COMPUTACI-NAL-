@@ -1,0 +1,17 @@
+/* punteros 4 problema que permita sumar dos numero diferentes
+visualizar el resultado modificado en memoria, icrementar mas 5 el resultado final*/
+#include <iostream>
+using namespace std;
+int main(){
+    int A,B,C, *P;
+    A=20;
+    B=10;
+    C=A+B;
+    cout << C<< endl;
+    cout <<& C<< endl;
+    P=&C;
+    cout << *P<< endl;
+    *P=C+5;
+    cout << *P;
+    return 0;
+}

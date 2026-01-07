@@ -1,0 +1,10 @@
+// punteros 1
+#include <iostream>
+using namespace std;
+int main(){
+    int A;
+    A=20;
+    cout << A<< endl;
+    cout <<& A<< endl;
+    return 0;
+}
